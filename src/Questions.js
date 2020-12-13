@@ -1,0 +1,33 @@
+export const questions = [
+    "Has a tattoo",
+    "Drinks coffee",
+    "Run a marathon",
+    "Hosted an outrageous hosue party",
+    "Born in another country",
+    "has no allergies",
+    "Wears (or should wear) glasses",
+    "Has been stung by a bee",
+    "speak more than 1 language",
+    "Plays a musical instrument",
+    "Never changed a car tyre",
+    "has their driver's license",
+    "Eaten snails (escargot)",
+    "has pets",
+    "Played four square in Primary School",
+    "Cooked the christmas Ham",
+    "will never jump out of a plane",
+    "First job as fast food restaurant",
+    "Has herbs growing at home",
+    "Was in the school choir",
+    "Had an online delivery in the past 7 days",
+    "drinks soft drink",
+    "favourite subject in high school was maths",
+    "has never ordered Ubereats",
+    "watched Tiger King",
+    "started backing bread in 2020",
+    "started running in 2020",
+    "had drinks on a Zoom chat",
+    "had a few too many drinks on a Zoom chat"
+]
+
+export default questions;

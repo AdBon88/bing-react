@@ -4,4 +4,8 @@
     height: 80px;
     justify-content: center;
     align-content: center;
+    text-align: center;
+    padding: 5px;
+    text-transform:capitalize;
+    background-color: #fff;
 }

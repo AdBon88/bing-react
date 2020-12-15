@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './Game.css';
-import Board from './components/Board.js';
+import Board from './components/Board/Board.js';
 
 function Game() {
   return (
     <div className="game">
-      <h1>Protege Bingo!</h1>
+      <div className="titles">
+        <h2 className="sub-title">All about me...</h2>
+        <h1 className="main-title">BINGO!</h1>
+      </div>
       <div className="game-board">
         <Board />
       </div>

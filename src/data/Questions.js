@@ -26,7 +26,7 @@ export const questions = [
     "started baking bread in 2020",
     "started running in 2020",
     "have had drinks on a Zoom chat",
-    "had had a few too many drinks on a Zoom chat",
+    "have had a few too many drinks on a Zoom chat",
     "have visited more than 5 countries",
     "have met a proper celebrity",
 ]

@@ -2,7 +2,7 @@ export const questions = [
     "Have a tattoo",
     "Drink coffee daily",
     "Ran a marathon",
-    "Hosted an outrageous hosue party",
+    "Hosted an outrageous house party",
     "Was Born in another country",
     "have no allergies",
     "Wear (or should wear) glasses",

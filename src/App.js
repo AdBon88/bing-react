@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {
     BrowserRouter as Router,
     Switch,
@@ -11,6 +11,21 @@ import Game from './Game';
 import Spinner from './Spinner';
 
 function App() {
+
+    const [questions, setQuestions] = useState(false);
+    useEffect(() => {
+        getQuestions();
+    }, []);
+
+    function getQuestions() {
+        fetch('http://localhost:3001/questions')
+            .then(response => {
+                return response.text();
+            })
+            .then(data => {
+                setQuestions(data);
+            });
+    }
 
     function PageNotFound() {
         let location = useLocation();
@@ -44,7 +59,7 @@ function App() {
                 </nav>
                 <Switch>
                     <Route path="/game">
-                        <Game />
+                        <Game data={questions} />
                     </Route>
                     <Route path="/spinner">
                         <Spinner />
@@ -62,3 +77,4 @@ function App() {
 }
 
 export default App;
+
